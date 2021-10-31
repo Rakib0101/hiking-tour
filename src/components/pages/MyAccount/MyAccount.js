@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import useAuth from "../../../hooks/useAuth";
 
 
@@ -23,6 +24,12 @@ const MyAccount = () => {
                             <h2 className='text-center text-2xl my-4'>
                                 {user.displayName}
                             </h2>
+                            <h2 className='text-center my-4'>{user.email}</h2>
+                            <div className="text-center">
+                                <button className="glass-effect px-4 py-2">
+                                    <Link to="my-booking">My Booking</Link>
+                                </button>
+                            </div>
                         </div>
                     </div>
                     <div className='md:col-span-4 glass-effect mx-4 md:mx-0 px-12 py-6 rounded-xl'>

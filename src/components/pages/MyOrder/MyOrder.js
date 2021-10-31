@@ -45,32 +45,38 @@ const ManageOrders = () => {
                 <h2 className='text-3xl text-center mb-4'>Booking Details</h2>
                 {info?.email ? (
                     <div className='flex flex-col-reverse md:flex-row md:w-4/5 w-5/6 mx-auto bg-primary items-center p-8 rounded-md'>
-                        <div className='md:w-2/3'>
+                        <div className='md:w-2/3 md:mr-4 '>
                             <div className='grid md:grid-cols-2 grid-cols-1 border-2 p-4'>
-                                <h2>Order Id</h2>
-                                <h2 className='md:text-xl text-xs text-white font-bold'>
-                                    {info?._id}
+                                <h2 className='md:text-xl text-white text-xs'>
+                                    Order Id
                                 </h2>
-                                <h2>Customer Name</h2>
-                                <h2 className='md:text-xl text-xs text-white font-bold'>
-                                    {info?.name}
+                                <h2 className=' text-gray-300'>{info?._id}</h2>
+                                <h2 className='md:text-xl text-white text-xs'>
+                                    Customer Name
                                 </h2>
-                                <h2>Customer Email</h2>
-                                <h2 className='md:text-xl text-xs text-white font-bold'>
+                                <h2 className=' text-gray-300'>{info?.name}</h2>
+                                <h2 className='md:text-xl text-white text-xs'>
+                                    Customer Email
+                                </h2>
+                                <h2 className=' text-gray-300'>
                                     {info?.email}
                                 </h2>
-                                <h2>Customer Mobile No.</h2>
-                                <h2 className='md:text-xl text-xs text-white font-bold'>
+                                <h2 className='md:text-xl text-white text-xs'>
+                                    Customer Mobile No.
+                                </h2>
+                                <h2 className=' text-gray-300'>
                                     {info?.mobileNumber}
                                 </h2>
-                                <h2>Total Members</h2>
-                                <h2 className='md:text-xl text-xs text-white font-bold'>
+                                <h2 className='md:text-xl text-white text-xs'>
+                                    Total Members
+                                </h2>
+                                <h2 className=' text-gray-300'>
                                     {info?.person}
                                 </h2>
-                                <h2>Total days</h2>
-                                <h2 className='md:text-xl text-xs text-white font-bold'>
-                                    {info?.day}
+                                <h2 className='md:text-xl text-white text-xs'>
+                                    Total days
                                 </h2>
+                                <h2 className=' text-gray-300'>{info?.day}</h2>
                             </div>
                             <div>
                                 <button
@@ -84,7 +90,9 @@ const ManageOrders = () => {
 
                         <div className='md:w-1/3 w-full'>
                             <img src={info?.img} alt='' />
-                            <h2 className='md:text-4xl text-xl py-4'>{info?.offer}</h2>
+                            <h2 className='md:text-4xl text-xl py-4'>
+                                {info?.offer}
+                            </h2>
                         </div>
                     </div>
                 ) : (

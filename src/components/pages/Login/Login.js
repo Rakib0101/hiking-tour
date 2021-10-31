@@ -61,9 +61,9 @@ const Login = () => {
     };
     return (
         <div className='bg-black'>
-            <div className='container mx-auto flex flex-col md:flex-row items-center'>
+            <div className='container mx-auto flex flex-col-reverse md:flex-row items-center'>
                 <div className='md:w-3/5 w-full text-white'>
-                    <div className='glass-effect p-8 m-12 rounded-lg' action=''>
+                    <div className='glass-effect overflow-hidden p-8 m-12 rounded-lg' action=''>
                         <h2 className='custom-color text-4xl'>Login</h2>
                         <p className='my-4'>
                             And enjoy life during the time you just saved!
@@ -90,16 +90,16 @@ const Login = () => {
                             <div>
                                 <input
                                     onClick={emailPassLogin}
-                                    className='text-black bg-white text-xl rounded mt-4  px-8 py-2'
+                                    className='text-black bg-white md:text-xl rounded mt-4  md:px-8 px-2 py-2'
                                     type='submit'
                                     value='Create An Account'
                                 />
                             </div>
                         </form>
-                        <div className='flex flex-col-reverse md:flex-row justify-between my-8'>
+                        <div className='flex flex-col md:flex-row justify-between my-8'>
                             <button
                                 onClick={googleLogin}
-                                className='flex items-center justify-center bg-white text-black px-2 py-1 md:px-4 md:py-2 w-full mb-2 md:mb-0 md:mr-2 bg-color border-custom'
+                                className='flex items-center justify-center bg-white text-black px-2  py-1 md:px-4 md:py-2 w-full mb-2 md:mb-0 md:mr-2 bg-color border-custom'
                             >
                                 <FaGoogle />{" "}
                                 <h2 className='pl-2'>Sign up with Google</h2>

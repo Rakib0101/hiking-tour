@@ -46,8 +46,8 @@ const BookingNow = () => {
     return (
         <div className='bg-primary'>
             <div className='container mx-auto py-12'>
-                <div className='flex'>
-                    <div className='w-1/3 text-white'>
+                <div className='flex flex-col md:flex-row'>
+                    <div className='md:w-1/3 mx-4 md:mx-0 text-white'>
                         <img src={offerInfo.img} alt='' />
                         <h2 className='text-3xl'>
                             Offer Name: {offerInfo?.offer}

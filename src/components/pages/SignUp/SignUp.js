@@ -85,8 +85,8 @@ const SignUp = () => {
                         </p>
                         <p className='text-red-600'>{error}</p>
                         <form action='' onSubmit={emailPassRegister}>
-                            <div className='flex justify-between mb-2'>
-                                <div className='w-1/2 mr-2'>
+                            <div className='flex flex-col md:flex-row justify-between mb-2'>
+                                <div className='md:w-1/2 mr-2'>
                                     <label htmlFor=''>Full Name</label>
                                     <br />
                                     <input
@@ -96,7 +96,7 @@ const SignUp = () => {
                                         placeholder='Full Name'
                                     />
                                 </div>
-                                <div className='w-1/2 ml-2'>
+                                <div className='md:w-1/2 md:ml-2'>
                                     <label htmlFor=''>Email Address</label>
                                     <br />
                                     <input
