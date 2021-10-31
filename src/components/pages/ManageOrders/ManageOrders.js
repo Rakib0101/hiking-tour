@@ -11,24 +11,70 @@ const ManageOrders = () => {
             });
     }, []);
 
-    const cancelBooking = id => {
-        const proceed = window.confirm("Are your sure ? You want to cancel your booking ?")
+    // const cancelBooking = id => {
+    //     const proceed = window.confirm("Are your sure ? You want to cancel your booking ?")
+    //     if (proceed) {
+    //         const url = `https://infinite-river-40471.herokuapp.com/orders/${id}`;
+    //         fetch(url, {
+    //             method: "DELETE"
+    //         })
+    //             .then(res => res.json())
+    //             .then(data => {
+    //                 if (data.deletedCount > 0) {
+    //                     alert("successfully Cancel Your Booking")
+    //                     const remainingdata = ordersInfo.filter(orderInfo => orderInfo._id !== id)
+    //                     setOrdersInfo(remainingdata)
+    //             }
+    //         })
+    //     }
+    // }
+    // console.log(ordersInfo);
+
+    let handelAccept = id => {
+        const proceed = window.confirm(
+            "Are you sure, You want to Accept this order?"
+        );
         if (proceed) {
+            // let sliceId = e.target.textContent.slice(6);
             const url = `https://infinite-river-40471.herokuapp.com/orders/${id}`;
             fetch(url, {
-                method: "DELETE"
+                method: "PUT",
+                headers: {
+                    "content-type": "application/json",
+                },
+                body: JSON.stringify(),
             })
-                .then(res => res.json())
-                .then(data => {
-                    if (data.deletedCount > 0) {
-                        alert("successfully Cancel Your Booking")
-                        const remainingdata = ordersInfo.filter(orderInfo => orderInfo._id !== id)
-                        setOrdersInfo(remainingdata)
-                }
-            })
+                .then((res) => res.json())
+                .then((data) => {
+                    if (data.modifiedCount > 0) {
+                        alert("Update Successful.");
+                    }
+                });
         }
-    }
-    console.log(ordersInfo);
+    };
+    const handelCancel = id => {
+        const proceed = window.confirm("Are you sure, You want to delete it?");
+        if (proceed) {
+            // let sliceId = e.target.textContent.slice(6);
+            const url = `https://infinite-river-40471.herokuapp.com/orders/${id}`;
+            fetch(url, {
+                method: "DELETE",
+            })
+                .then((res) => res.json())
+                .then((data) => {
+                    if (data.deletedCount > 0) {
+                        alert("Successfully delete the data.");
+                        const remainingdata = ordersInfo.filter(
+                            (orderInfo) => orderInfo._id !== id
+                        );
+                        setOrdersInfo(remainingdata);
+
+                    }
+                });
+        }
+    };
+
+
     // const info = ordersInfo.find( orderInfo => orderInfo.data.email === user.email)
     // console.log(info);
     return (
@@ -53,12 +99,20 @@ const ManageOrders = () => {
                             <h2 className='md:text-xl text-white md:font-bold'>
                                 Total Day: {orderInfo?.day}
                             </h2>
-                            <div>
+                            <div className="mt-4">
+                                {
+                                    !orderInfo?.status ?
+                                        <button
+                                    className='bg-black px-2 py-1 mr-2 text-white'
+                                    onClick={() => handelAccept(orderInfo?._id)}
+                                >
+                                    Approve Booking
+                                        </button> :
+                                        ""
+                                }
                                 <button
                                     className='bg-black px-2 py-1 text-white'
-                                    onClick={() =>
-                                        cancelBooking(orderInfo?._id)
-                                    }
+                                    onClick={() => handelCancel(orderInfo?._id)}
                                 >
                                     Cancel Booking
                                 </button>
@@ -69,6 +123,11 @@ const ManageOrders = () => {
                             <img src={orderInfo?.img} alt='' />
                             <h2 className='md:text-4xl text-xl py-4'>
                                 {orderInfo?.offer}
+                            </h2>
+                            <h2
+                                className={orderInfo?.status ? "text-white text-center bg-green-500 py-2" : "bg-red-600 py-2 text-white text-center"}
+                            >
+                                {orderInfo?.status ? "Approved" : "Pending"}
                             </h2>
                         </div>
                     </div>
