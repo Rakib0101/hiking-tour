@@ -1,0 +1,346 @@
+[
+    {
+        "tourName": "Two Hour Walking Tour of Manhattan",
+        "tourLocation": "New York, United States",
+        "tourPrice": 50,
+        "hotelImg": "https://i.ibb.co/SBpVjLN/tour01.jpg",
+        "tourDesc": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+        "tourHighlights": [
+            "Visit eight villages showcasing Polynesian culture",
+            "Canoe ride, tattoos, spear throwing, ukulele lessons and fishing",
+            "Spectacular Polynesian evening dinner show ‘Ha: Breath of Life",
+            "Optional transportation from Waikiki hotelsFlat Tv"
+        ],
+        "included": [
+            "Specialized bilingual guideLuxury", 
+            "Private Transport", 
+            "Entrance fees (Cable and car and Moon Valley)",
+            "Box lunch water, banana apple and chocolate"
+        ],
+        "excluded": [
+            "Additional Services",
+            "Insuarance",
+            "Drinks",
+            "Tickets"
+        ],
+        "duration": "3- 5 hours",
+        "rating": "4.5",
+        "reviews": "45",
+        "faqQuestion": [
+            "Contrary to popular belief ?",
+            "It has roots in a piece of classical ?",
+            "Richard McClintock, a Latin professor at Hampden-Sydney"
+        ],
+        "faqAnswer": [
+            "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+            "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+            "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source."
+        ]
+    },
+    {
+        "tourName": "American Parks Trail end Rapid City",
+        "tourLocation": "New York, United States",
+        "tourPrice": 60,
+        "hotelImg": "https://i.ibb.co/KGKq274/tour02.jpg",
+        "tourDesc": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+        "tourHighlights": [
+            "Visit eight villages showcasing Polynesian culture",
+            "Canoe ride, tattoos, spear throwing, ukulele lessons and fishing",
+            "Spectacular Polynesian evening dinner show ‘Ha: Breath of Life",
+            "Optional transportation from Waikiki hotelsFlat Tv"
+        ],
+        "included": [
+            "Specialized bilingual guideLuxury",
+            "Private Transport",
+            "Entrance fees (Cable and car and Moon Valley)",
+            "Box lunch water, banana apple and chocolate"
+        ],
+        "excluded": ["Additional Services", "Insuarance", "Drinks", "Tickets"],
+        "duration": "3- 5 hours",
+        "rating": "4.5",
+        "reviews": "45",
+        "faqQuestion": [
+            "Contrary to popular belief ?",
+            "It has roots in a piece of classical ?",
+            "Richard McClintock, a Latin professor at Hampden-Sydney"
+        ],
+        "faqAnswer": [
+            "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+            "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+            "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source."
+        ]
+    },
+    {
+        "tourName": "Northern California Summer 2019",
+        "tourLocation": "New York, United States",
+        "tourPrice": 50,
+        "hotelImg": "https://i.ibb.co/rfzfbJw/tour03.jpg",
+        "tourDesc": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+        "tourHighlights": [
+            "Visit eight villages showcasing Polynesian culture",
+            "Canoe ride, tattoos, spear throwing, ukulele lessons and fishing",
+            "Spectacular Polynesian evening dinner show ‘Ha: Breath of Life",
+            "Optional transportation from Waikiki hotelsFlat Tv"
+        ],
+        "included": [
+            "Specialized bilingual guideLuxury",
+            "Private Transport",
+            "Entrance fees (Cable and car and Moon Valley)",
+            "Box lunch water, banana apple and chocolate"
+        ],
+        "excluded": ["Additional Services", "Insuarance", "Drinks", "Tickets"],
+        "duration": "3- 5 hours",
+        "rating": "4.5",
+        "reviews": "45",
+        "faqQuestion": [
+            "Contrary to popular belief ?",
+            "It has roots in a piece of classical ?",
+            "Richard McClintock, a Latin professor at Hampden-Sydney"
+        ],
+        "faqAnswer": [
+            "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+            "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+            "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source."
+        ]
+    },
+    {
+        "tourName": "New York: Museum of Modern Art",
+        "tourLocation": "New York, United States",
+        "tourPrice": 70,
+        "hotelImg": "https://i.ibb.co/q782B2b/tour04.jpg",
+        "tourDesc": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+        "tourHighlights": [
+            "Visit eight villages showcasing Polynesian culture",
+            "Canoe ride, tattoos, spear throwing, ukulele lessons and fishing",
+            "Spectacular Polynesian evening dinner show ‘Ha: Breath of Life",
+            "Optional transportation from Waikiki hotelsFlat Tv"
+        ],
+        "included": [
+            "Specialized bilingual guideLuxury",
+            "Private Transport",
+            "Entrance fees (Cable and car and Moon Valley)",
+            "Box lunch water, banana apple and chocolate"
+        ],
+        "excluded": ["Additional Services", "Insuarance", "Drinks", "Tickets"],
+        "duration": "3- 5 hours",
+        "rating": "4.3",
+        "reviews": "52",
+        "faqQuestion": [
+            "Contrary to popular belief ?",
+            "It has roots in a piece of classical ?",
+            "Richard McClintock, a Latin professor at Hampden-Sydney"
+        ],
+        "faqAnswer": [
+            "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+            "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+            "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source."
+        ]
+    },
+    {
+        "tourName": "Rockies, Yellowstone & Mt Rushmore",
+        "tourLocation": "New York, United States",
+        "tourPrice": 50,
+        "hotelImg": "https://i.ibb.co/kyNTj93/tour05.jpg",
+        "tourDesc": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+        "tourHighlights": [
+            "Visit eight villages showcasing Polynesian culture",
+            "Canoe ride, tattoos, spear throwing, ukulele lessons and fishing",
+            "Spectacular Polynesian evening dinner show ‘Ha: Breath of Life",
+            "Optional transportation from Waikiki hotelsFlat Tv"
+        ],
+        "included": [
+            "Specialized bilingual guideLuxury",
+            "Private Transport",
+            "Entrance fees (Cable and car and Moon Valley)",
+            "Box lunch water, banana apple and chocolate"
+        ],
+        "excluded": ["Additional Services", "Insuarance", "Drinks", "Tickets"],
+        "duration": "3- 5 hours",
+        "rating": "4.9",
+        "reviews": "67",
+        "faqQuestion": [
+            "Contrary to popular belief ?",
+            "It has roots in a piece of classical ?",
+            "Richard McClintock, a Latin professor at Hampden-Sydney"
+        ],
+        "faqAnswer": [
+            "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+            "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+            "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source."
+        ]
+    },
+    {
+        "tourName": "Trip of New York – Discover America",
+        "tourLocation": "New York, United States",
+        "tourPrice": 50,
+        "hotelImg": "https://i.ibb.co/R3yvRJT/tour06.jpg",
+        "tourDesc": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+        "tourHighlights": [
+            "Visit eight villages showcasing Polynesian culture",
+            "Canoe ride, tattoos, spear throwing, ukulele lessons and fishing",
+            "Spectacular Polynesian evening dinner show ‘Ha: Breath of Life",
+            "Optional transportation from Waikiki hotelsFlat Tv"
+        ],
+        "included": [
+            "Specialized bilingual guideLuxury",
+            "Private Transport",
+            "Entrance fees (Cable and car and Moon Valley)",
+            "Box lunch water, banana apple and chocolate"
+        ],
+        "excluded": ["Additional Services", "Insuarance", "Drinks", "Tickets"],
+        "duration": "5- 7 hours",
+        "rating": "3.5",
+        "reviews": "65",
+        "faqQuestion": [
+            "Contrary to popular belief ?",
+            "It has roots in a piece of classical ?",
+            "Richard McClintock, a Latin professor at Hampden-Sydney"
+        ],
+        "faqAnswer": [
+            "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+            "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+            "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source."
+        ]
+    },
+    {
+        "tourName": "Segway Tour of Washington, D.C. Highlights",
+        "tourLocation": "New York, United States",
+        "tourPrice": 50,
+        "hotelImg": "https://i.ibb.co/8YmSHmb/tour07.jpg",
+        "tourDesc": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+        "tourHighlights": [
+            "Visit eight villages showcasing Polynesian culture",
+            "Canoe ride, tattoos, spear throwing, ukulele lessons and fishing",
+            "Spectacular Polynesian evening dinner show ‘Ha: Breath of Life",
+            "Optional transportation from Waikiki hotelsFlat Tv"
+        ],
+        "included": [
+            "Specialized bilingual guideLuxury",
+            "Private Transport",
+            "Entrance fees (Cable and car and Moon Valley)",
+            "Box lunch water, banana apple and chocolate"
+        ],
+        "excluded": ["Additional Services", "Insuarance", "Drinks", "Tickets"],
+        "duration": "6- 8 hours",
+        "rating": "4.0",
+        "reviews": "70",
+        "faqQuestion": [
+            "Contrary to popular belief ?",
+            "It has roots in a piece of classical ?",
+            "Richard McClintock, a Latin professor at Hampden-Sydney"
+        ],
+        "faqAnswer": [
+            "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+            "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+            "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source."
+        ]
+    },
+    {
+        "tourName": "America’s National Parks with Denver",
+        "tourLocation": "New York, United States",
+        "tourPrice": 50,
+        "hotelImg": "https://i.ibb.co/HPWQLQj/tour08.png",
+        "tourDesc": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+        "tourHighlights": [
+            "Visit eight villages showcasing Polynesian culture",
+            "Canoe ride, tattoos, spear throwing, ukulele lessons and fishing",
+            "Spectacular Polynesian evening dinner show ‘Ha: Breath of Life",
+            "Optional transportation from Waikiki hotelsFlat Tv"
+        ],
+        "included": [
+            "Specialized bilingual guideLuxury",
+            "Private Transport",
+            "Entrance fees (Cable and car and Moon Valley)",
+            "Box lunch water, banana apple and chocolate"
+        ],
+        "excluded": ["Additional Services", "Insuarance", "Drinks", "Tickets"],
+        "duration": "3- 5 hours",
+        "rating": "4.2",
+        "reviews": "60",
+        "faqQuestion": [
+            "Contrary to popular belief ?",
+            "It has roots in a piece of classical ?",
+            "Richard McClintock, a Latin professor at Hampden-Sydney"
+        ],
+        "faqAnswer": [
+            "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+            "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+            "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source."
+        ]
+    },
+    {
+        "tourName": "Southwest States (Ex Los Angeles)",
+        "tourLocation": "New York, United States",
+        "tourPrice": 75,
+        "hotelImg": "https://i.ibb.co/H4YmtLC/tour09.jpg",
+        "tourDesc": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+        "tourHighlights": [
+            "Visit eight villages showcasing Polynesian culture",
+            "Canoe ride, tattoos, spear throwing, ukulele lessons and fishing",
+            "Spectacular Polynesian evening dinner show ‘Ha: Breath of Life",
+            "Optional transportation from Waikiki hotelsFlat Tv"
+        ],
+        "included": [
+            "Specialized bilingual guideLuxury",
+            "Private Transport",
+            "Entrance fees (Cable and car and Moon Valley)",
+            "Box lunch water, banana apple and chocolate"
+        ],
+        "excluded": ["Additional Services", "Insuarance", "Drinks", "Tickets"],
+        "duration": "3- 5 hours",
+        "rating": "4.9",
+        "reviews": "60",
+        "faqQuestion": [
+            "Contrary to popular belief ?",
+            "It has roots in a piece of classical ?",
+            "Richard McClintock, a Latin professor at Hampden-Sydney"
+        ],
+        "faqAnswer": [
+            "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+            "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+            "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source."
+        ]
+    },
+    {
+        "tourName": "Eastern Discovery (Start New Orleans)",
+        "tourLocation": "New York, United States",
+        "tourPrice": 80,
+        "hotelImg": "https://i.ibb.co/KKg8vVr/tour10.jpg",
+        "tourDesc": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+        "tourHighlights": [
+            "Visit eight villages showcasing Polynesian culture",
+            "Canoe ride, tattoos, spear throwing, ukulele lessons and fishing",
+            "Spectacular Polynesian evening dinner show ‘Ha: Breath of Life",
+            "Optional transportation from Waikiki hotelsFlat Tv"
+        ],
+        "included": [
+            "Specialized bilingual guideLuxury",
+            "Private Transport",
+            "Entrance fees (Cable and car and Moon Valley)",
+            "Box lunch water, banana apple and chocolate"
+        ],
+        "excluded": ["Additional Services", "Insuarance", "Drinks", "Tickets"],
+        "duration": "5- 7 hours",
+        "rating": "4.8",
+        "reviews": "30",
+        "faqQuestion": [
+            "Contrary to popular belief ?",
+            "It has roots in a piece of classical ?",
+            "Richard McClintock, a Latin professor at Hampden-Sydney"
+        ],
+        "faqAnswer": [
+            "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+            "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+            "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source."
+        ]
+    }
+]
+
+
+
+
+
+
+
+
+
