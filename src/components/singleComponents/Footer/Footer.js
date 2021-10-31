@@ -28,8 +28,17 @@ const Footer = () => {
                 </div>
                 <div>
                     <p className='text-center text-lg text-gray-700 font-semibold'>
-                        Design Inspiration From Themeforest Mediservice
-                        wordpress theme
+                        Design Inspiration From Themeforest{" "}
+                        <a
+                            className='text-red-500'
+                            href='https://travelerwp.com/'
+                            rel='noopener noreferrer'
+                            target='_blank'
+                        >
+                            {" "}
+                            Traveler WP{" "}
+                        </a>
+                        WordPress Theme
                     </p>
                 </div>
             </div>

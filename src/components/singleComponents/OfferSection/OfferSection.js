@@ -15,7 +15,7 @@ const OfferSection = () => {
                     them it multiply was blessed
                 </p>
                 <h2 className="text-2xl mb-4">Hover on image and see the offer details</h2>
-                <div className='grid grid-cols-3 gap-8'>
+                <div className='grid md:grid-cols-3 grid-cols-1 gap-8'>
                     {offers.slice(0, 6).map((offer) => (
                         <OfferCard key={offer._id} offer={offer}></OfferCard>
                     ))}

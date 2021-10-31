@@ -10,7 +10,7 @@ const ServiceSection = () => {
                 <h2 className='text-center text-4xl pb-8 text-white'>
                     Services
                 </h2>
-                <div className='grid grid-cols-3 gap-8'>
+                <div className='grid md:grid-cols-3 grid-cols-1 gap-8'>
                     {services.map((service) => (
                         <ServiceCard
                             key={service._id}

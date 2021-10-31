@@ -10,6 +10,7 @@ import Hotels from "./components/pages/Hotels/Hotels";
 import Login from "./components/pages/Login/Login";
 import ManageOrders from "./components/pages/ManageOrders/ManageOrders";
 import MyAccount from "./components/pages/MyAccount/MyAccount";
+import MyOrder from "./components/pages/MyOrder/MyOrder"
 import NotFound from "./components/pages/NotFound/NotFound";
 import Offer from "./components/pages/Offer/Offer";
 import SignUp from "./components/pages/SignUp/SignUp";
@@ -57,6 +58,9 @@ function App() {
                         </PrivateRoute>
                         <PrivateRoute exact path='/manage-booking'>
                             <ManageOrders></ManageOrders>
+                        </PrivateRoute>
+                        <PrivateRoute exact path='/my-booking'>
+                            <MyOrder></MyOrder>
                         </PrivateRoute>
                         <PrivateRoute exact path='/booking/:offerId'>
                             <BookingNow></BookingNow>

@@ -13,7 +13,7 @@ const HikingStyleSection = () => {
                     home or a foreign land.
                 </p>
                 <h2 className='text-4xl pb-8 text-center'>Choose Your Hiking Style</h2>
-                <div className='grid grid-cols-4 gap-4'>
+                <div className='grid md:grid-cols-4 grid-cols-1 gap-4'>
                     {tours.slice(0, 4).map((tour) => (
                         <div className='relative'>
                             <img src={tour.hotelImg} alt='' />

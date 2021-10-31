@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
 const TourCard = (props) => {
     const {_id, tourName, hotelImg, tourPrice, duration, reviews, rating, tourLocation} = props.tour
     return (
-        <div className='bg-white shadow-xl border-2 p-4 rounded-md'>
+        <div className='bg-white mx-4 md:mx-0 shadow-xl border-2 p-4 rounded-md'>
             <img className='rounded-md' src={hotelImg} alt='' />
             <div>
                 <p className='text-left'>{tourLocation}</p>

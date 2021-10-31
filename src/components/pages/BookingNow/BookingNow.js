@@ -73,9 +73,7 @@ const BookingNow = () => {
                                 }
                                 type='text'
                                 placeholder='Your Name'
-                                {...register("name", {
-                                    required: true,
-                                })}
+                                {...register("name")}
                             />
                             <input
                                 className='w-full mb-4 px-4 py-1 rounded'
@@ -84,9 +82,7 @@ const BookingNow = () => {
                                 }
                                 type='email'
                                 placeholder='Your Email Address'
-                                {...register("email", {
-                                    required: true,
-                                })}
+                                {...register("email")}
                             />
                             <input
                                 className='w-full mb-4 px-4 py-1 rounded'

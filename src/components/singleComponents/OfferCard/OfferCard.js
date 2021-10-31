@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const OfferCard = (props) => {
     const{_id, offer, tagLine, prevPrice, offerPrice, img, day} =props.offer
     return (
-        <div className='relative transition-all duration-700 cursor-pointer'>
+        <div className='relative transition-all duration-700 cursor-pointer mx-4 md:mx-0'>
             <div>
                 <img className='h-96 w-full' src={img} alt='' />
             </div>

@@ -93,6 +93,14 @@ const Navbar = ({ fixed }) => {
                                             <li className='nav-item'>
                                                 <Link
                                                     className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug primary-color hover:opacity-75'
+                                                    to='/my-booking'
+                                                >
+                                                    My Booking
+                                                </Link>
+                                            </li>
+                                            <li className='nav-item'>
+                                                <Link
+                                                    className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug primary-color hover:opacity-75'
                                                     to='/my-account'
                                                 >
                                                     My Account

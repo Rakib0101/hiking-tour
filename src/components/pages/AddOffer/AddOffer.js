@@ -27,11 +27,11 @@ const AddOffer = () => {
     return (
         <div className='bg-primary'>
             <div className='container mx-auto py-16'>
-                <h2 className='text-white text-4xl pb-8'>
+                <h2 className='text-white mx-4 md:mx-0 text-4xl pb-8'>
                     Here has our some offers
                 </h2>
-                <div className='grid grid-cols-6 gap-4'>
-                    <div className='col-span-4 grid grid-cols-3 gap-8'>
+                <div className='grid md:grid-cols-6 gap-4 grid-cols-1'>
+                    <div className='col-span-4 grid md:grid-cols-3 grid-cols-1 gap-8'>
                         {offers.map((offer) => (
                             <OfferCard
                                 key={offer._id}
@@ -39,7 +39,7 @@ const AddOffer = () => {
                             ></OfferCard>
                         ))}
                     </div>
-                    <div className='col-span-2'>
+                    <div className='col-span-2 mx-4 md:mx-0'>
                         <h2 className='text-white text-2xl pb-8'>
                             Add A New Offer
                         </h2>

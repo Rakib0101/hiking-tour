@@ -8,7 +8,7 @@ const TopHeader = () => {
     const { user, logOut } = useAuth()
     return (
         <div>
-            <div className='flex items-center justify-between'>
+            <div className='flex items-center md:justify-between justify-end'>
                 <div className='hidden md:flex md:w-2/5'>
                     <div className='mr-2'>
                         <h2 className='flex items-center'>
@@ -41,11 +41,11 @@ const TopHeader = () => {
                         </h2>
                     </div>
                     {user?.email || user?.displayName ? (
-                        <div>
+                        <div className="">
                             <button onClick={logOut}>Logout</button>
                         </div>
                     ) : (
-                        <div className='flex'>
+                        <div className='flex text-right'>
                             <button className='pl-4'>
                                 <Link to='/login'>Login</Link>
                             </button>

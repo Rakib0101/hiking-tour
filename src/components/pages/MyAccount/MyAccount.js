@@ -8,8 +8,8 @@ const MyAccount = () => {
     return (
         <div className='bg-primary'>
             <div className='container mx-auto py-12'>
-                <div className='grid grid-cols-5 gap-8'>
-                    <div className='col-span-1 glass-effect rounded-xl'>
+                <div className='grid md:grid-cols-5 grid-cols-1 gap-8'>
+                    <div className='md:col-span-1 glass-effect mx-4 md:mx-0 rounded-xl'>
                         <div className='shaddow px-4 py-8'>
                             {user.photoURL ? (
                                 <img
@@ -18,21 +18,19 @@ const MyAccount = () => {
                                     alt=''
                                 />
                             ) : (
-                                <span className='mx-auto text-6xl'>
-                                    
-                                </span>
+                                <span className='mx-auto text-6xl'></span>
                             )}
                             <h2 className='text-center text-2xl my-4'>
                                 {user.displayName}
                             </h2>
                         </div>
                     </div>
-                    <div className='col-span-4 glass-effect px-12 py-6 rounded-xl'>
+                    <div className='md:col-span-4 glass-effect mx-4 md:mx-0 px-12 py-6 rounded-xl'>
                         <h2 className='text-4xl py-4 my-4'>My Profile</h2>
 
                         <hr />
-                        <div className='flex'>
-                            <div className='w-1/4'>
+                        <div className='flex flex-col md:flex-row'>
+                            <div className='md:w-1/4'>
                                 <img
                                     className='w-40 h-40 my-2 mx-auto rounded-full'
                                     src={user.photoURL}
@@ -44,15 +42,17 @@ const MyAccount = () => {
                                     </button>
                                 </div>
                             </div>
-                            <div className='w-3/4'>
-                                <h2 className='text-2xl font-semibold'>
+                            <div className='md:w-3/4 mx-4 md:mx-0'>
+                                <h2 className='md:text-2xl font-semibold'>
                                     Full Name
                                 </h2>
-                                <h2 className='text-3xl'>{user.displayName}</h2>
-                                <h2 className='text-2xl font-semibold'>
+                                <h2 className='md:text-3xl'>
+                                    {user.displayName}
+                                </h2>
+                                <h2 className='md:text-2xl font-semibold'>
                                     Email Address
                                 </h2>
-                                <h2 className='text-3xl'>{user.email}</h2>
+                                <h2 className='md:text-3xl'>{user.email}</h2>
                             </div>
                         </div>
                     </div>
